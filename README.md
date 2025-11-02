@@ -1,7 +1,3 @@
-Sure! Here’s your content formatted perfectly for **GitHub README.md** — you can copy and paste it directly:
-
----
-
 # 🧠 Stock Sentiment Analysis with News Headlines
 
 ## 📘 Overview
