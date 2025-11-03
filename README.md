@@ -1,18 +1,18 @@
-# 🧠 Stock Sentiment Analysis with News Headlines
+# Stock Sentiment Analysis with News Headlines
 
-## 📘 Overview
+## Overview
 
 This project implements machine learning models to predict **stock market sentiment (positive/negative movement)** based on daily news headlines. By analyzing the relationship between news content and market movements, we aim to provide insights for investors and financial analysts on how media narratives influence stock price behavior.
 
 **Key Results:**
 
-* 🌲 **Random Forest Classifier** achieved **84.92% accuracy**
-* 🧮 **Multinomial Naive Bayes** achieved **84.66% accuracy**
-* 💹 Both models demonstrated strong performance in identifying positive sentiment (**95%+ recall**)
+* **Random Forest Classifier** achieved **84.92% accuracy**
+* **Multinomial Naive Bayes** achieved **84.66% accuracy**
+* Both models demonstrated strong performance in identifying positive sentiment (**95%+ recall**)
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 ### Source
 
@@ -41,7 +41,7 @@ This project implements machine learning models to predict **stock market sentim
 
 ---
 
-## ⚙️ Methods
+## Methods
 
 ### Approach
 
@@ -112,7 +112,7 @@ We implemented two complementary machine learning algorithms for binary sentimen
 
 ---
 
-## 🧩 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -149,14 +149,14 @@ jupyter notebook ML.ipynb
 3. **Output:**
    The script will:
 
-* Automatically download the dataset from Kaggle Hub
-* Preprocess the text data
-* Train both models
-* Display performance metrics (confusion matrix, accuracy, classification report)
+   * Automatically download the dataset from Kaggle Hub
+   * Preprocess the text data
+   * Train both models
+   * Display performance metrics (confusion matrix, accuracy, classification report)
 
 ---
 
-## 📈 Experiments & Results
+## Experiments & Results
 
 ### Performance Comparison
 
@@ -170,7 +170,7 @@ jupyter notebook ML.ipynb
 | **Recall (Class 1)**    | **0.96**      | **0.95**                |
 | **F1-Score (Class 1)**  | **0.87**      | 0.86                    |
 
-### 🟩 Random Forest Classifier Results
+### Random Forest Classifier Results
 
 **Confusion Matrix:**
 
@@ -186,7 +186,7 @@ Actual Positive           8                184
 * Lower recall for negative sentiment (0.74)
 * Conservative with negative predictions, confident with positives
 
-### 🟦 Multinomial Naive Bayes Results
+### Multinomial Naive Bayes Results
 
 **Confusion Matrix:**
 
@@ -218,7 +218,7 @@ Actual Positive          10                182
 
 ---
 
-## 🎯 Conclusion
+## Conclusion
 
 ### Key Findings
 
@@ -256,7 +256,7 @@ Actual Positive          10                182
 
 ---
 
-## 📚 References
+## References
 
 1. **Dataset:**
    Tyagi, S. (2024). *News Headlines Dataset For Stock Sentiment Analyze* (Version 1). Kaggle.
@@ -275,7 +275,7 @@ Actual Positive          10                182
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 stock-sentiment-analysis/
@@ -286,3 +286,6 @@ stock-sentiment-analysis/
 ├── README.md                # This file
 └── data/                    # Auto-downloaded via kagglehub
     └── Data.csv
+```
+
+---
